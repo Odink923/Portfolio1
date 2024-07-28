@@ -8,7 +8,7 @@ const LeadSection = () => {
             <div className="mx-4 md:mx-16 lg:mx-60">
                 <div className="mt-24 lg:mt-60">
                     <div className="uppercase flex flex-col text-white text-3xl md:text-5xl lg:text-7xl font-momentExtended pb-10">
-                        <span>The world's first</span>
+                        <span>The world&apos;s first</span>
                         <span>platform for Tokenizing</span>
                         <span>AI blockchain projects</span>
                     </div>

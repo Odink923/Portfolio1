@@ -32,12 +32,4 @@ body {
   }
 }
 /* Ensure no unexpected properties are affecting colors */
-body {
-  mix-blend-mode: normal; /* Ensure default blend mode */
-  filter: none; /* Disable any filter that might invert colors */
-}
 
-/* Check for unintended global styles */
-* {
-  color: inherit; /* Ensure colors are inherited as expected */
-}
