@@ -31,5 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+html, body {
+  overflow-x: hidden; /* Запобігання горизонтальному переповненню */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%; /* Переконайтеся, що контейнери не перевищують 100% ширини */
+  overflow-x: hidden; /* Додатковий захист від переповнення */
+}
 /* Ensure no unexpected properties are affecting colors */
 
