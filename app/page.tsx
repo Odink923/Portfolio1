@@ -17,10 +17,13 @@ export default function Home() {
 
           <MainBackground>
               <LeadSection></LeadSection>
+              
           </MainBackground>
+    
+
           <CreonPassSection></CreonPassSection>
           <ProfitingSection></ProfitingSection>
-          <OurVisionSection></OurVisionSection>
+          
           <SoonSection></SoonSection>
 
           <FooterBackground>

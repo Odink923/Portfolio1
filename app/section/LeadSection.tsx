@@ -12,15 +12,17 @@ const LeadSection = () => {
                         <span>platform for Tokenizing</span>
                         <span>AI blockchain projects</span>
                     </div>
-
-                    <span className="relative inline-block pt-3 pb-3">
-                        <span className="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-blue-custom to-purple-custom"></span>
-                        <span className="text-lg md:text-xl lg:text-22 font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-custom to-purple-custom">
-                            Hold the Creon Pass NFT and earn passive income from AI Tools
-                        </span>
-                        <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-blue-custom to-purple-custom"></span>
-                    </span>
+                    <div className=" mt-[2vh] text-[2vw]  md:text-[1.5vw] lg:text-[1vw]">
+    <span className="relative inline-block pt-3 pb-3">
+        <span className="absolute inset-x-0 top-0 h-0.5 bg-gradient-to-r from-blue-custom to-purple-custom"></span>
+        <span className="text-[3vw] md:text-[2.5vw] lg:text-[2vw] font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-custom to-purple-custom">
+            Hold the Creon Pass NFT and earn passive income from AI Tools
+        </span>
+        <span className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-blue-custom to-purple-custom"></span>
+    </span>
+</div>
                 </div>
+                
             </div>
         </div>
     );
